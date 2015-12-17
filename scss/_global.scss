@@ -108,7 +108,7 @@ $foundation-colors: (
   success: $success-color,
   alert: $alert-color,
   warning: $warning-color,
-);
+) !default;
 
 @mixin foundation-global-styles {
   @include -zf-normalize;
