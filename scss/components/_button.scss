@@ -225,7 +225,7 @@ $button-opacity-disabled: 0.25 !default;
     }
 
     // Hollow style
-    @if $button-fill != hollow {
+    @if $button-fill == hollow {
       &.hollow {
         @include button-hollow;
         @include button-hollow-style;
